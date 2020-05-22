@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="prograssbar_color1">
+        <item name="color">#58C9FD</item>
+    </style>
+    <style name="prograssbar_color2">
+        <item name="color">#77EB64</item>
+    </style>
+    <style name="prograssbar_color3">
+        <item name="color">#F1CF67</item>
+    </style>
+    <style name="prograssbar_color4">
+        <item name="color">#F05E2C</item>
+    </style>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "638422771832",
+    "firebase_url": "https://usercareapplication.firebaseio.com",
+    "project_id": "usercareapplication",
+    "storage_bucket": "usercareapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638422771832:android:29f2cc10dfeeaa1366a58d",
+        "android_client_info": {
+          "package_name": "com.softwaredeveloppractice3.usercareapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638422771832-emrkdlgkaqpu3js5s7q2cloon3a33h4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softwaredeveloppractice3.usercareapplication",
+            "certificate_hash": "060bdfc513dbf31b75a1f7dadaa2f807caf9a5a2"
+          }
+        },
+        {
+          "client_id": "638422771832-66tl78te6dck0inicug464jeptd1ismg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAruFyOXZXBgfTzX_tOcZBnwIQqpAKQsiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638422771832-66tl78te6dck0inicug464jeptd1ismg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

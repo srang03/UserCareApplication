@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:weightSum="10">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_weight="5"
+      android:weightSum="2"
+      >
+
+      <LinearLayout
+          android:layout_margin="5dp"
+          android:background="@drawable/edge"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+
+          android:layout_weight="1"
+          >
+          <TextView
+
+              android:paddingTop="10dp"
+              android:layout_margin="5dp"
+              android:gravity="center"
+              android:textColor="@color/colorPrimaryDark"
+              android:text="Weight"
+              android:textSize="15sp"
+              android:textStyle="bold"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="10"
+              android:orientation="horizontal">
+              <TextView
+                  android:gravity="right"
+                  android:layout_weight="5"
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/textviewWeight"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+
+                  android:textColor="@color/colorPrimaryDark"
+                  android:textSize="20sp"
+                  android:text="0" />
+
+              <TextView
+                  android:layout_marginLeft="20dp"
+                  android:layout_weight="5"
+                  android:gravity="left"
+                  android:text="Kg"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+          </LinearLayout>
+
+          <SeekBar
+              android:layout_margin="10dp"
+              android:id="@+id/weightSeekBar"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:max="200"
+             />
+
+          <ProgressBar
+              android:id="@+id/weightProgressBar"
+              android:layout_margin="10dp"
+              android:max="200"
+              android:progress="0"
+              style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="12dp"
+              android:visibility="invisible"/>
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_margin="5dp"
+          android:background="@drawable/edge"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_weight="1"
+
+          >
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:paddingTop="10dp"
+              android:text="Height"
+              android:textColor="@color/colorPrimaryDark"
+              android:textSize="15sp"
+              android:textStyle="bold" />
+
+
+
+          <LinearLayout
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="10"
+              android:orientation="horizontal">
+              <TextView
+                  android:gravity="right"
+                  android:layout_weight="5"
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/textviewHeight"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+
+                  android:textColor="@color/colorPrimaryDark"
+                  android:textSize="20sp"
+                  android:text="0"/>
+
+              <TextView
+                  android:layout_marginLeft="20dp"
+                  android:layout_weight="5"
+                  android:gravity="left"
+                  android:text="cm"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+          </LinearLayout>
+
+          <SeekBar
+              android:layout_margin="10dp"
+              android:id="@+id/heightSeekBar"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:max="200"
+              />
+
+          <ProgressBar
+              android:id="@+id/heightProgressBar"
+              android:layout_margin="10dp"
+              android:max="200"
+              android:progress="0"
+
+              style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="12dp"
+              android:visibility="invisible"/>
+
+      </LinearLayout>
+  </LinearLayout>
+
+
+
+
+    <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_weight="5"
+
+        >
+        <TextView
+            android:id="@+id/BMIColorTextview"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Your BMI Rate"
+            android:textSize="18sp"
+            android:textColor="@color/colorDarkGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+  <ProgressBar
+    android:id="@+id/BMIresultProgressBar"
+      android:max="60"
+      style="?android:progressBarStyleHorizontal"
+      android:progress="0"
+      android:layout_gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:progressDrawable="@drawable/cpd_3"
+
+   />
+        <TextView
+            android:id="@+id/BMIresultTextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:src="@drawable/underweight"
+                android:layout_width="18dp"
+                android:layout_height="18dp"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UnderWeight"/>
+            <TextView
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Under 18.5"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:src="@drawable/normalweight"
+                android:layout_width="18dp"
+                android:layout_height="18dp"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Normal weight"/>
+            <TextView
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18.5 - 23"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:src="@drawable/overweight"
+                android:layout_width="18dp"
+                android:layout_height="18dp"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Over Weight"/>
+            <TextView
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23 - 25"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:src="@drawable/obesity"
+                android:layout_width="18dp"
+                android:layout_height="18dp"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obesity"/>
+            <TextView
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25 - 30"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:src="@drawable/heighobesity"
+                android:layout_width="18dp"
+                android:layout_height="18dp"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Obesity"/>
+            <TextView
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="over 30"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
