@@ -47,7 +47,8 @@
   
   2. Application DataFlow
   
-  ![image](https://user-images.githubusercontent.com/53038387/82642669-3db46680-9c49-11ea-9081-976a3204e2e8.png)
+  |:---:|
+  | ![image](https://user-images.githubusercontent.com/53038387/82642669-3db46680-9c49-11ea-9081-976a3204e2e8.png) |
 
 
 
