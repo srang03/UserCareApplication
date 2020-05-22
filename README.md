@@ -67,16 +67,20 @@
       애플리케이션 실행 시 Intro Animation이 실행됩니다.
       
       2. Navigation Drawer
-       * Home Fragment : 홈 화면으로 사용자의 몸무게 수치를 입력할 수 있고 해당 데이터가 FireBase Date Base에 저장됩니다. 저장된 데이터를 토대로 화면에 그래프가 그려져 사용자가 한눈에 체중 변화를 확인할 수 있습니다.
+       * Home Fragment : 홈 화면으로 사용자의 몸무게 수치를 입력할 수 있고 해당 데이터가 FireBase Date Base에 저장됩니다. 
+       저장된 데이터를 토대로 화면에 그래프가 그려져 사용자가 한눈에 체중 변화를 확인할 수 있습니다.
   
   
-      * BMI Check Fragment : Application Range Bar를 이용하여 사용자의 몸무게와 키 정보를 입력하게 되면 그 값에 따라 자신의 BMI 정보를 알 수 있고 해당 수치에 따라 색상이 변화되어 본인이 비만 인지 여부에 대해서 알 수 있습니다
+      * BMI Check Fragment : Application Range Bar를 이용하여 사용자의 몸무게와 키 정보를 입력하게 되면 그 값에 따라 자신의 BMI 정보를 
+      알 수 있고 해당 수치에 따라 색상이 변화되어 본인이 비만 인지 여부에 대해서 알 수 있습니다
   
   
-      *  WHR Check Fragment : Application에 자신의 나이와 몸무게, 키를 입력하게 되면 WHR 계산기를 통해 허리와 엉덩이 사이즈 비교 하여 비만도 지수를 계산하고 평가할 수 있습니다.
+      *  WHR Check Fragment : Application에 자신의 나이와 몸무게, 키를 입력하게 되면 WHR 계산기를 통해 허리와 엉덩이 사이즈 비교 하여 
+      비만도 지수를 계산하고 평가할 수 있습니다.
       
       
-       * Exercise Information View : Recycle View와 menu list를 이용하여 사용자에게 운동 정보를 제공합니다. 운동 정보로 운동명칭, 1시간 동안 사용되는 칼로리양 그리고 운동 가이드를 제시합니다.
+       * Exercise Information View : Recycle View와 menu list를 이용하여 사용자에게 운동 정보를 제공합니다. 운동 정보로 운동명칭, 
+       1시간 동안 사용되는 칼로리양 그리고 운동 가이드를 제시합니다.
       
       3. Notification 알림 기능
       
