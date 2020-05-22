@@ -57,13 +57,20 @@
   
   2. Application DataFlow
   
-  
   | Data Flow |
   |:---:|
   | ![image](https://user-images.githubusercontent.com/53038387/82642669-3db46680-9c49-11ea-9081-976a3204e2e8.png) |
   
+  
+    1.IntroActivity 
+    2.
+    3.
+    4.
+  
 
-   1. IntroActivity 
+  
+
+        1. 
   애플리케이션 실행 시 Intro Animation이 실행됩니다.
   ➁ Navigation Drawer
   * Home Fragment : 홈 화면으로 사용자의 몸무게 수치를 입력할 수 있고 해당 데이터가 FireBase Date Base에 저장됩니다. 저장된 데이터를 토대로 화면에 그래프가 그려져 사용자가 한눈에 체중 변화를 확인할 수 있습니다.
