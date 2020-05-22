@@ -1,4 +1,4 @@
-# UserCare Application
+# Check Your BMI
 
 ### 프로젝트 개요
 체중변화에 관심을 가지고 꾸준한 BMI 지수 체크와 올바른 생활습관을 만들어 간다면 비만으로부터 건강한 삶을 지킬 수 있도록 도와주는 것이 목적이다.
@@ -21,4 +21,20 @@
 ### 성능 요구사항
 | 요구사항 번호 | 요구사항 이름 | 요구사항 내용 | 중요도 |
 |:---:|:---:|:---:|:---:|
-| PR -1 | BMI 지수 | BMI를 제공하여 본인의 체중과 비교할 수 있게 함 | ★★★★★
+| PR-1 | BMI 지수 | BMI를 제공하여 본인의 체중과 비교할 수 있게 함 | ★★★★★ |
+| PR-2 | 사용자 데이터 저장 | 사용자의 몸무게를 DB에 저장하고 그래프를 제공 함 | ★★★★☆ |
+| PR-3 | 사용자 신체정보 입력 | 체중과 키 정보를 간단하게 입력할 수 있도록 함 | ★★★★☆ |
+| PR-4 | 어플 UI 편의성 | 다양한 연령대 이용자들이 쉽게 접근할 수 있도록 UI를 디자인 | ★★★☆☆ |
+
+
+### 프로젝트 수행 결과
+  1. Appication Development State
+| Category | Setting Result |
+|:---:|:---:|
+| Application Name | Checking your BMI |
+| Target Device | Android Mobile Phone |
+| Minimum SDK | API Level 18 |
+| Database | FireBase | 
+| Notification | FireBase Cloud Messaging |
+| Main Activity | Navigation Drawer |
+
