@@ -18,6 +18,8 @@
       2. 운동 알림 기능
 
 
+
+
 ### 성능 요구사항
 | 요구사항 번호 | 요구사항 이름 | 요구사항 내용 | 중요도 |
 |:---:|:---:|:---:|:---:|
@@ -25,6 +27,8 @@
 | PR-2 | 사용자 데이터 저장 | 사용자의 몸무게를 DB에 저장하고 그래프를 제공 함 | ★★★★☆ |
 | PR-3 | 사용자 신체정보 입력 | 체중과 키 정보를 간단하게 입력할 수 있도록 함 | ★★★★☆ |
 | PR-4 | 어플 UI 편의성 | 다양한 연령대 이용자들이 쉽게 접근할 수 있도록 UI를 디자인 | ★★★☆☆ |
+
+
 
 
 ### 프로젝트 수행 결과
@@ -39,4 +43,13 @@
 | Database | FireBase | 
 | Notification | FireBase Cloud Messaging |
 | Main Activity | Navigation Drawer |
+  
+  
+  2. Application DataFlow
+  
+  ![image](https://user-images.githubusercontent.com/53038387/82642669-3db46680-9c49-11ea-9081-976a3204e2e8.png)
+
+
+
+
 
